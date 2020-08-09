@@ -13,8 +13,8 @@ html, body {
   font-size: 18px;
 }
 
-
 ::-webkit-scrollbar {
+  width: 2px;
   max-height: initial;
 }
 
