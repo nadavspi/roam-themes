@@ -3,8 +3,8 @@
 
 :root {	
     --page-width: 616px;
-    --page-order: row-reverse; /* new pages show up to the right */
-    /*--page-order: row; /* new pages show up to the left */
+    /* --page-order: row-reverse; /1* new pages show up to the right *1/ */
+    --page-order: row; /* new pages show up to the left */
     
     --header-font: "Source Sans Pro", "Inter", sans-serif;	
     --body-font: "Source Sans Pro", "Inter", sans-serif;	
