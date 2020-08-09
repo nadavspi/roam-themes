@@ -985,7 +985,13 @@ canvas[data-id="layer2-node"] {
 }
 
 .rm-query .rm-query-title {
-  font-size: .8em;
+  font-size: 0px;
+  border-radius: 10px 10px 0 0;
+}
+
+.rm-query-title::after {
+  font-size: 14px;
+  content: "Query";
 }
 
 /* CHECKBOX */
