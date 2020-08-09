@@ -1,6 +1,7 @@
 :root {
     --page-width: 616px;
     --page-order: row-reverse;
+    --sidebar-width: calc(var(--page-width) * .75);
 }
 
 html, body, .roam-app {
@@ -119,6 +120,7 @@ textarea, a {
     height: auto !important;
     max-width: var(--page-width);
 }
+
 /* make blocks respect --page-width */
 .roam-block-container {
     max-width: var(--page-width);
@@ -193,7 +195,7 @@ textarea, a {
 /* spacing and scrolling */
 #roam-right-sidebar-content > * {
     margin: 0px 0px 0 20px !important;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     /*overflow-y: auto !important;*/
     max-height: 100vh;
     padding: 50px 0px 100px 0px;
@@ -221,7 +223,7 @@ textarea, a {
 
 #roam-right-sidebar-content > * {
     display: block !important;
-    max-width: var(--page-width);
+    max-width: var(--sidbar-width);
     position: relative !important;
 }
 
@@ -242,7 +244,7 @@ textarea, a {
 #roam-right-sidebar-content > * > div:last-child:not(:first-child) {
     border-radius: 0px 0px 10px 10px;
     padding-bottom: 50px !important;
-    width: var(--page-width);
+    width: var(--sidebar-width);
 }
 #roam-right-sidebar-content > div > div:not(.flex-h-box) {
     padding: 0px 50px 0px 40px;
