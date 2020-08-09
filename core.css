@@ -8,18 +8,6 @@ html, body, .roam-app {
     overflow: hidden !important;
 }
 
-/* hide scrollbars */
-::-webkit-scrollbar {
-    width: 0px;
-    background: transparent; /* Chrome/Safari/Webkit */
-}
-
-/* hide scrollbars */
-* {
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* IE 10+ */
-}
-
 h1, h2, h3,  h4, h5, h6, h1 > a, h2 > a, h3 > a, h4 > a, .rm-title-textarea {
     font-family: var(--header-font) !important;
     color: var(--text-color) !important;
