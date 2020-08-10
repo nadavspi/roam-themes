@@ -1,0 +1,19 @@
+:root {
+  --color-primary-text: #bebad4;
+  --color-mutedorange: 217, 164, 121;
+  --color-lightgrey: #d3d3d3;
+  --color-purple: #5d178f;
+  --color-darkpurple: #1b191f;
+  --color-cyan: 43, 174, 194;
+
+  --bg-color: black;
+  --page-color: var(--color-darkpurple);
+  --page-shadow: var(--color-purple);
+  --text-color: var(--color-primary-text);
+  --bullet-color: var(--text-color);
+  --icon-color: var(--text-color);
+  --color-primary: var(--color-mutedorange);
+  --color-primary-contrast: var(--color-darkpurple);	
+  --color-secondary: var(--color-cyan);
+  --color-secondary-contrast: var(--color-darkpurple);	
+}

@@ -113,13 +113,6 @@ textarea, a {
     background-color: var(--bullet-color) !important;
 }
 
-.rm-saving-icon .rm-synced {
-    background-color: rgb(var(--color-primary));
-}
-.rm-saving-icon .rm-saving-remote {
-    background-color: rgb(var(--color-secondary));
-}
-
 /* set width and other attributes of pages */
 .roam-article {
     padding: 0 !important;
@@ -501,7 +494,7 @@ textarea, a {
 }
 
 .rm-ref-page-view-title a {
-    color: #000000;
+    color: var(--text-color);
     font-weight: bold;
 }
 
