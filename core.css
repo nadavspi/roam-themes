@@ -9,8 +9,8 @@ html, body, .roam-app {
     overflow: hidden !important;
 }
 
-body {
-  font-size: 16px;
+html, body {
+  font-size: 18px;
 }
 
 
@@ -490,7 +490,11 @@ textarea, a {
     background-color: transparent !important;
     border: none !important;
     padding: 0 !important;
-    font-size: 13px !important;
+    font-size: .9rem;
+}
+
+.zoom-mentions-view {
+  font-size: .9rem;
 }
 
 .rm-ref-page-view-title a {

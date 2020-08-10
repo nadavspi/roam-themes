@@ -1,11 +1,10 @@
 :root {
   --color-primary-text: #bebad4;
-  --color-mutedorange: 237, 129, 28;
+  --color-mutedorange: 235, 158, 100;
   --color-lightgrey: #d3d3d3;
   --color-purple: #5d178f;
   --color-darkpurple: #1b191f;
   --color-cyan: 43, 174, 194;
 
   --color-primary: var(--color-mutedorange);
-  --color-secondary: var(--color-cyan);
 }
