@@ -1384,7 +1384,6 @@ code {
 #rm-mobile-bar {
     max-width: 100vw;
     background-color: rgb(var(--color-secondary)) !important;
-    position: fixed !important;
     z-index: 999999;
 }
 #rm-mobile-bar .bp3-button {
