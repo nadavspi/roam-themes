@@ -691,7 +691,6 @@ body > .bp3-portal .bp3-text-small {
 
 /* selected search result */
 .rm-find-or-create-wrapper .rm-menu-item[style*="background"] {
-    background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 /* search results highlighted words */
