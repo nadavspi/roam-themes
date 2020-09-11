@@ -801,6 +801,9 @@ body > .bp3-portal .bp3-text-small {
     background: rgb(var(--color-primary)) !important;
 }
 
+.DayPicker-Day--isToday {
+  border: 1px solid;
+}
 
 /* -------------------------- */
 /*       SEARCH PAGE          */
