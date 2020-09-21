@@ -306,13 +306,22 @@ textarea, a {
 }
 /* position filter button */
 #roam-right-sidebar-content > div .bp3-icon-minus ~ .bp3-popover-wrapper {
+    position: absolute;
+    top: 20px;
+    left: 50px;
 }
 /* position references button */
 #roam-right-sidebar-content > div .bp3-icon-minus ~ button.bp3-button {
+    position: absolute;
+    top: 20px;
+    left: 80px;
     color: var(--icon-color);
 }
 /* position close button */
 #roam-right-sidebar-content > div .bp3-icon-minus ~ .bp3-button.bp3-icon-cross {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 /* position close button */
