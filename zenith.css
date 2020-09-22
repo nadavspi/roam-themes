@@ -3,6 +3,8 @@
 
 :root {	
     --page-width: 720px;
+    --sidebar-width: 540px;
+
     /* --page-order: row-reverse; /1* new pages show up to the right *1/ */
     --page-order: row; /* new pages show up to the left */
     
