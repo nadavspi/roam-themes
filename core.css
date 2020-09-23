@@ -722,6 +722,7 @@ textarea, a {
 
 body > .bp3-portal .bp3-menu {
     background-color: var(--page-color) !important;
+    color: var(--text-color);
 }
 body > .bp3-portal .bp3-popover-content, body > .bp3-portal .bp3-popover-content * {
     color: var(--text-color) !important;
