@@ -227,7 +227,7 @@ textarea, a {
 
 .sidebar-content > *:not(.rm-dnd-separator) {
     display: block !important;
-    max-width: var(--sidbar-width);
+    max-width: 540px;
     position: relative !important;
     margin-bottom: 200px;
     flex-shrink: 0;
