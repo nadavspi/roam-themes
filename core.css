@@ -277,10 +277,6 @@ textarea, a {
     padding: 8px 40px !important;
 }
 
-.sidebar-content .window-headers {
-    flex-direction: column;
-}
-
 .sidebar-content > div .bp3-icon-plus ~ * {
     display: block;
 }
